@@ -1,8 +1,8 @@
-# Lunatask Online
+# Lunatask Workflow for Alfred
 ### The unofficial Alfred integration for the Lunatask API
 
 ## Install
-To install the workflow, download the "Lunatask Online.alfredworkflow" file and open it in Alfred  
+To install the workflow, download the "Lunatask workflow.alfredworkflow" file and open it in Alfred  
 The other files in the repository are the source code and are not required for install
 
 ## Basic Usage
