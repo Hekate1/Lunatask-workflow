@@ -510,7 +510,7 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Lunatask Online</string>
+	<string>Lunatask</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -552,7 +552,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Task Name</string>
+				<string>Please enter task name</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -581,6 +581,28 @@
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
 			<string>6C54578F-F8E3-4AED-9304-B29E4A52311D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>areaIdx</key>
+					<string>1</string>
+					<key>taskName</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>C27968F7-FFD4-42BB-AACA-6B5F4A1BCD8A</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -662,28 +684,6 @@ end run</string>
 			<string>611A6A74-7909-474A-956B-608741C93637</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>areaIdx</key>
-					<string>1</string>
-					<key>taskName</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>C27968F7-FFD4-42BB-AACA-6B5F4A1BCD8A</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -965,7 +965,7 @@ end run</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Lunatask Management</string>
+				<string>Add things to Lunatask</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
@@ -1025,28 +1025,6 @@ end run</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>noteName</key>
-					<string>{query}</string>
-					<key>notebookIdx</key>
-					<string>1</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>E9F4ED25-2238-455A-824C-5A48A51709B2</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>behaviour</key>
 				<integer>1</integer>
 				<key>fontmode</key>
@@ -1085,7 +1063,7 @@ end run</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Note Name</string>
+				<string>Please enter note name</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -1093,6 +1071,28 @@ end run</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>74B0A912-9116-4E7B-90D2-790CA943771E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>noteName</key>
+					<string>{query}</string>
+					<key>notebookIdx</key>
+					<string>1</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>E9F4ED25-2238-455A-824C-5A48A51709B2</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1498,7 +1498,7 @@ end run</string>
 This information should (hopefully) not be required to set up and use the workflow but explains all options in depth in any confusion arises
 
 ##Introduction
-Welcome to Lunatask Online, the unofficial Alfred workflow to use the Lunatask API.
+Welcome to the unofficial Alfred workflow for Lunatask!
 
 Due to the current functionality of the Lunatask API, please note the following:
 - An internet connection is required to use the extension
@@ -1510,13 +1510,13 @@ Due to the current functionality of the Lunatask API, please note the following:
 Support for Lunatask's new "Relationships" will come in a future update
 
 ##First-time configuration
-Before using Lunatask Online, certain info must be manually copied over from the Lunatask App
+Before using the workflow, certain info must be manually copied over from the Lunatask App
 
 It is also **strongly recommended** to review the hotkey bindings and make sure they do not conflict with any other custom key bindings
 - By default, normal task creation is bound to command-L, all option task creation is bound to shift-command-L, and note creation is bound to option-L
 - To change the bindings, double click on the binding object in the workflow and follow the instructions
 
-The default input in alfed to pull up Lunatask Online is ll but this can be changed by modifying the relevant keyword object
+The default input in alfed to pull up the workflow is ll but this can be changed by modifying the relevant keyword object
 
 ###Required
 Access Token:
@@ -1541,7 +1541,7 @@ Primary Notebook:
 - This value is required to create notes
 
 Advanced Task Creation:
-- Enables all task options by default when creating task from Alfred &gt; Lunatask Online &gt; Create task
+- Enables all task options by default when creating task from Alfred &gt; \*Workflow Keyword\* &gt; Create task
 - Both name only task creation and full option task creation can be done using hotkeys
 
 Additional Areas of Life:
@@ -1650,7 +1650,7 @@ Lunatask task/note source
 		<key>547AB06E-6576-4ABD-A742-AAA71D24D9CD</key>
 		<dict>
 			<key>note</key>
-			<string>Displays all Lunatask Online operations, currently task creation and note creation</string>
+			<string>Displays all workflow operations, currently task creation and note creation</string>
 			<key>xpos</key>
 			<real>170</real>
 			<key>ypos</key>
@@ -1792,7 +1792,7 @@ Lunatask task/note source
 			<key>xpos</key>
 			<real>570</real>
 			<key>ypos</key>
-			<real>150</real>
+			<real>120</real>
 		</dict>
 		<key>C67EC923-9E44-44FF-BEC0-AFCD2366AFE4</key>
 		<dict>
@@ -1831,7 +1831,7 @@ Lunatask task/note source
 			<key>xpos</key>
 			<real>575</real>
 			<key>ypos</key>
-			<real>495</real>
+			<real>530</real>
 		</dict>
 		<key>EF6FD25F-1CEB-4202-9946-69958EFC4B97</key>
 		<dict>
@@ -1852,7 +1852,7 @@ Lunatask task/note source
 		<key>F555A9EE-4D3C-41F6-A644-8B2523E54C59</key>
 		<dict>
 			<key>note</key>
-			<string>Keyword to show Lunatask Online when in alfred</string>
+			<string>Keyword to show workflow when in alfred</string>
 			<key>xpos</key>
 			<real>30</real>
 			<key>ypos</key>
@@ -2242,8 +2242,8 @@ Lunatask task/note source
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>0.1</string>
+	<string>0.1.1</string>
 	<key>webaddress</key>
-	<string>https://github.com/Hekate1/Lunatask-online-workflow</string>
+	<string>https://github.com/Hekate1/Lunatask-workflow</string>
 </dict>
 </plist>
