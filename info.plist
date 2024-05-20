@@ -114,46 +114,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>51C98E14-873D-4C97-BB58-DA6AAEEB5122</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>9E4FDEB2-A7A5-4930-853F-0C70282BC5DF</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>E92897D9-5657-4E9F-9459-DB7EB4961279</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>7316E671-2342-428A-9007-EF1050F12740</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>EBEFB184-EE95-41FD-804D-F403F482654D</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>547AB06E-6576-4ABD-A742-AAA71D24D9CD</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>51C98E14-873D-4C97-BB58-DA6AAEEB5122</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>5B7F7CDD-CFD5-48E7-872F-3F6ADB35CCAA</key>
 		<array>
 			<dict>
@@ -437,6 +397,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>CD9B4A1D-A07F-4144-B039-CF82AECBD3EF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7316E671-2342-428A-9007-EF1050F12740</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>E5B28AF7-A055-458D-85AC-92FA3BB7737F</key>
 		<array>
 			<dict>
@@ -493,7 +466,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>547AB06E-6576-4ABD-A742-AAA71D24D9CD</string>
+				<string>9E4FDEB2-A7A5-4930-853F-0C70282BC5DF</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -688,6 +661,27 @@ end run</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>ll</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Create task</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>F555A9EE-4D3C-41F6-A644-8B2523E54C59</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>conditions</key>
 				<array>
 					<dict>
@@ -834,37 +828,6 @@ end run</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>37</integer>
-				<key>hotmod</key>
-				<integer>1179648</integer>
-				<key>hotstring</key>
-				<string>L</string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>2CB7E1E9-4F78-4C05-B1F4-23C43D70626E</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>conditions</key>
 				<array>
 					<dict>
@@ -929,98 +892,33 @@ end run</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttrimmode</key>
+				<key>action</key>
 				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>fixedorder</key>
-				<false/>
-				<key>items</key>
-				<string>[{"title":"Create Task","arg":"task"},{"title":"Create Note","arg":"note"}]</string>
-				<key>matchmode</key>
+				<key>argument</key>
 				<integer>0</integer>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string></string>
-				<key>withspace</key>
+				<key>focusedappvariable</key>
 				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.listfilter</string>
-			<key>uid</key>
-			<string>547AB06E-6576-4ABD-A742-AAA71D24D9CD</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>ll</string>
-				<key>subtext</key>
+				<key>focusedappvariablename</key>
 				<string></string>
-				<key>text</key>
-				<string>Add things to Lunatask</string>
-				<key>withspace</key>
+				<key>hotkey</key>
+				<integer>37</integer>
+				<key>hotmod</key>
+				<integer>1179648</integer>
+				<key>hotstring</key>
+				<string>L</string>
+				<key>leftcursor</key>
 				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
-			<string>F555A9EE-4D3C-41F6-A644-8B2523E54C59</string>
+			<string>2CB7E1E9-4F78-4C05-B1F4-23C43D70626E</string>
 			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string></string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>task</string>
-						<key>outputlabel</key>
-						<string></string>
-						<key>uid</key>
-						<string>E92897D9-5657-4E9F-9459-DB7EB4961279</string>
-					</dict>
-					<dict>
-						<key>inputstring</key>
-						<string></string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>note</string>
-						<key>outputlabel</key>
-						<string></string>
-						<key>uid</key>
-						<string>EBEFB184-EE95-41FD-804D-F403F482654D</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>else</string>
-				<key>hideelse</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>51C98E14-873D-4C97-BB58-DA6AAEEB5122</string>
-			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1071,6 +969,27 @@ end run</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>74B0A912-9116-4E7B-90D2-790CA943771E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>ll</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Create note</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>CD9B4A1D-A07F-4144-B039-CF82AECBD3EF</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1144,37 +1063,6 @@ end run</string>
 			<string>514297DE-7E46-4385-9A82-715793F18B05</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>37</integer>
-				<key>hotmod</key>
-				<integer>524288</integer>
-				<key>hotstring</key>
-				<string>L</string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>E5B28AF7-A055-458D-85AC-92FA3BB7737F</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1322,6 +1210,37 @@ end run</string>
 			<string>6A86B9C3-82A3-4137-9E60-C9F60151CF8F</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>37</integer>
+				<key>hotmod</key>
+				<integer>524288</integer>
+				<key>hotstring</key>
+				<string>L</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>E5B28AF7-A055-458D-85AC-92FA3BB7737F</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1601,19 +1520,19 @@ Lunatask task/note source
 			<key>xpos</key>
 			<real>30</real>
 			<key>ypos</key>
-			<real>235</real>
+			<real>310</real>
 		</dict>
 		<key>2D0FB8F4-7845-4F64-8114-B2A4B9BF7F4E</key>
 		<dict>
 			<key>xpos</key>
-			<real>575</real>
+			<real>570</real>
 			<key>ypos</key>
 			<real>625</real>
 		</dict>
 		<key>404806A3-2466-448B-9088-0749FC1E5342</key>
 		<dict>
 			<key>xpos</key>
-			<real>620</real>
+			<real>615</real>
 			<key>ypos</key>
 			<real>625</real>
 		</dict>
@@ -1640,22 +1559,6 @@ Lunatask task/note source
 			<key>ypos</key>
 			<real>555</real>
 		</dict>
-		<key>51C98E14-873D-4C97-BB58-DA6AAEEB5122</key>
-		<dict>
-			<key>xpos</key>
-			<real>310</real>
-			<key>ypos</key>
-			<real>415</real>
-		</dict>
-		<key>547AB06E-6576-4ABD-A742-AAA71D24D9CD</key>
-		<dict>
-			<key>note</key>
-			<string>Displays all workflow operations, currently task creation and note creation</string>
-			<key>xpos</key>
-			<real>170</real>
-			<key>ypos</key>
-			<real>395</real>
-		</dict>
 		<key>5B7F7CDD-CFD5-48E7-872F-3F6ADB35CCAA</key>
 		<dict>
 			<key>note</key>
@@ -1663,7 +1566,7 @@ Lunatask task/note source
 			<key>xpos</key>
 			<real>30</real>
 			<key>ypos</key>
-			<real>90</real>
+			<real>20</real>
 		</dict>
 		<key>611A6A74-7909-474A-956B-608741C93637</key>
 		<dict>
@@ -1677,7 +1580,7 @@ Lunatask task/note source
 		<key>6A86B9C3-82A3-4137-9E60-C9F60151CF8F</key>
 		<dict>
 			<key>xpos</key>
-			<real>530</real>
+			<real>525</real>
 			<key>ypos</key>
 			<real>625</real>
 		</dict>
@@ -1803,6 +1706,15 @@ Lunatask task/note source
 			<key>ypos</key>
 			<real>760</real>
 		</dict>
+		<key>CD9B4A1D-A07F-4144-B039-CF82AECBD3EF</key>
+		<dict>
+			<key>note</key>
+			<string>Keyword to show workflow when in alfred</string>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>500</real>
+		</dict>
 		<key>CE628C5E-4B5C-47F1-B165-0166360AF4AF</key>
 		<dict>
 			<key>xpos</key>
@@ -1817,7 +1729,7 @@ Lunatask task/note source
 			<key>xpos</key>
 			<real>30</real>
 			<key>ypos</key>
-			<real>575</real>
+			<real>645</real>
 		</dict>
 		<key>E935DDD4-F8C8-436A-B4DF-4F3826B57DAF</key>
 		<dict>
@@ -1829,7 +1741,7 @@ Lunatask task/note source
 		<key>E9F4ED25-2238-455A-824C-5A48A51709B2</key>
 		<dict>
 			<key>xpos</key>
-			<real>575</real>
+			<real>570</real>
 			<key>ypos</key>
 			<real>530</real>
 		</dict>
@@ -1856,7 +1768,7 @@ Lunatask task/note source
 			<key>xpos</key>
 			<real>30</real>
 			<key>ypos</key>
-			<real>395</real>
+			<real>165</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -2242,7 +2154,7 @@ Lunatask task/note source
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>0.1.1</string>
+	<string>0.2.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/Hekate1/Lunatask-workflow</string>
 </dict>

@@ -174,7 +174,7 @@ final class TaskFormAppDelegate: NSObject, NSApplicationDelegate {
         let taskFormView = TaskForm(areas: areas, goals: goals)
         window = NSWindow(
             contentRect: NSRect(x: 0, y: 0, width: 460, height: 350),
-            styleMask: [.titled, .miniaturizable, .resizable, .fullSizeContentView, .closable],
+            styleMask: [.titled, .miniaturizable, .resizable, .fullSizeContentView],
             backing: .buffered,
             defer: false
         )
