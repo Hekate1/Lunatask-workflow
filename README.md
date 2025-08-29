@@ -11,7 +11,8 @@ Before usage, the workflow must be configured in order to use the API. Once inst
 Currently the workflow supports the creation of tasks and notes, further explanation in the workflow about section
 
 ### Defaults
-- Alfred keyword -- ll (lowercase L twice)
-- Create task with only name -- command-L
-- Create task with all options -- shift-command-L
-- Create note -- option-L
+- Alfred keyword -- lluna (lowercase L twice + "una")
+- No default hokeys are set but some possible values are:
+  - Create task with only name -- command-L
+  - Create task with all options -- shift-command-L
+  - Create note -- option-L
