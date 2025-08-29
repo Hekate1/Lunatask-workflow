@@ -498,11 +498,11 @@
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>37</integer>
+				<integer>0</integer>
 				<key>hotmod</key>
-				<integer>1048576</integer>
+				<integer>0</integer>
 				<key>hotstring</key>
-				<string>L</string>
+				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -664,7 +664,7 @@ end run</string>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>ll</string>
+				<string>lluna</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
@@ -1108,11 +1108,11 @@ app.run()</string>
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>37</integer>
+				<integer>0</integer>
 				<key>hotmod</key>
-				<integer>1179648</integer>
+				<integer>0</integer>
 				<key>hotstring</key>
-				<string>L</string>
+				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -1185,7 +1185,7 @@ app.run()</string>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>ll</string>
+				<string>lluna</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
@@ -1554,11 +1554,11 @@ app.run()</string>
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>37</integer>
+				<integer>0</integer>
 				<key>hotmod</key>
-				<integer>524288</integer>
+				<integer>0</integer>
 				<key>hotstring</key>
-				<string>L</string>
+				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -1757,7 +1757,7 @@ Due to the current functionality of the Lunatask API, please note the following:
 	- It is possible that in a future update of this workflow that the ability for editing of tasks/notes **created by this workflow** may be added
 	- With manual data export from Lunatask, it is theoretically possible to edit tasks/notes that exist at the time of export though it is unlikely this functionality will be added unless programatic export becomes supported
 
-Support for Lunatask's new "Relationships" will come in a future update
+Support for Lunatask's new "Relationships" may come in a future update
 
 ##First-time configuration
 Before using the workflow, certain info must be manually copied over from the Lunatask App
@@ -2485,7 +2485,7 @@ Lunatask task/note source
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>0.3.1</string>
+	<string>0.3.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/Hekate1/Lunatask-workflow</string>
 </dict>
