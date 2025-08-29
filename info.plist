@@ -1762,8 +1762,8 @@ Support for Lunatask's new "Relationships" may come in a future update
 ##First-time configuration
 Before using the workflow, certain info must be manually copied over from the Lunatask App
 
-It is also **strongly recommended** to review the hotkey bindings and make sure they do not conflict with any other custom key bindings
-- By default, normal task creation is bound to command-L, all option task creation is bound to shift-command-L, and note creation is bound to option-L
+It is also recommended to add hotkey bindings, making sure they do not conflict with any other custom key bindings
+- Recommended defaults are: normal task creation is bound to command-L, all option task creation is bound to shift-command-L, and note creation is bound to option-L
 - To change the bindings, double click on the binding object in the workflow and follow the instructions
 
 The default input in alfed to pull up the workflow is ll but this can be changed by modifying the relevant keyword object
